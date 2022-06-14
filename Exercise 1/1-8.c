@@ -1,10 +1,11 @@
-/*Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank*/
+/*Write a program to count blanks, tabs and newlines*/
 #include<stdio.h>
 
 int main(){
 
-        int nc,c;
+        printf("Press \\ and then Enter to quit\n");
 
+        int nc,c;
         nc=0;
 
         while((c=getchar()) != EOF){
