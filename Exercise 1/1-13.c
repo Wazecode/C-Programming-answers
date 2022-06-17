@@ -1,3 +1,4 @@
+/*Write a program to print a histogram of the lenghts of words in its input.*/
 #include <stdio.h>
 
 int main(){
