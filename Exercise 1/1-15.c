@@ -1,3 +1,4 @@
+/*Rewrite the temperature program using a function*/
 #include <stdio.h>
 
 void Fahr2Cel(int a){
