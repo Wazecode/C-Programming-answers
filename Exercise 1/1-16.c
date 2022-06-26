@@ -1,6 +1,4 @@
 /* Revise the main ... */
-/* Didnt understand the question properly
-  this code dosen't work */
 #include <stdio.h>
 #define ARRAY_SIZE 1000
 
@@ -19,7 +17,7 @@ int main(){
     line[len++] = c;
     if (line[len-1] == '\n') {
       line[len] = '\0';
-      if (len > 79) printf("%s",line);
+      printf("%d || %s",len,line);
       len = 0;
     }
   }
