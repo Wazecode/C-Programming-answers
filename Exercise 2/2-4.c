@@ -20,16 +20,9 @@ void squeeze(char s[], char c[]) { // scaling the above function from char to st
 
 int main() {
   char s[300] = "hello this is Shuwais Soudager and I like to eat bubble gum ice cream";
-
   char c[10] = "osi";
 
-  long int i = strlen(c);
-
-  printf("%ld\n",i);
-
   squeeze(s, c);
-
   puts(s);
-
   return 0;
 }
