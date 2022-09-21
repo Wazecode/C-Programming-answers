@@ -6,7 +6,6 @@ unsigned setbits(unsigned x,unsigned p,unsigned n,unsigned y) {
     unsigned masky = ~0 << n;
 
     x = x & maskx;
-    printf("%u\n",x);
     y = (y & ~masky) << (p - n);
 
     return x | y;
