@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 void escape( char s[], char t[]);
 void escape_rev( char s[], char t[]);
