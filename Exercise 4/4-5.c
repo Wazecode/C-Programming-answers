@@ -55,6 +55,22 @@ int main() {
                 printf("the top element : %g\n", op2);
                 break;
 
+            // ----------- Math functions -----------------
+
+            case 's': // sine
+                push(sin(pop()));
+                break;
+            case 'c': // cosine
+                push(cos(pop()));
+                break;
+            case 'e': // exp
+                push(exp(pop()));
+                break;
+            case '^': // power
+                op2 = pop();
+                push(pow(pop(), op2));
+                break;
+
             // --------- Commands --------------
             case 'D': // duplicate
                 op2 = pop();
